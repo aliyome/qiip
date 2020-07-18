@@ -1,15 +1,31 @@
 {
-  "name": "qiita",
-  "version": "1.0.0",
+  "name": "qiip",
+  "version": "0.1.0",
   "main": "index.js",
-  "author": "aliyome <aliyome@gmail.com>",
+  "description": "cli tool to post entry for qiita.",
+  "author": "aliyome <aliyome@gmail.com> (https://aliyo.me)",
   "license": "MIT",
   "scripts": {
-    "test": "node src/test.js"
+    "post": "node src/post.js"
   },
-  "type": "module",
+  "bin": {
+    "post": "./bin/post.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliyome/qiip.git"
+  },
+  "keywords": [
+    "cli",
+    "qiita"
+  ],
+  "bugs": {
+    "url": "https://github.com/aliyome/qiip/issues"
+  },
+  "homepage": "https://github.com/aliyome/qiip#readme",
   "dependencies": {
-    "dotenv": "^8.2.0",
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^6.1.0",
     "isomorphic-fetch": "^2.2.1",
     "qiita-js": "^0.4.3"
   }

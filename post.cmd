@@ -1,1 +1,0 @@
-yarn post %1
