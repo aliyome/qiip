@@ -1,6 +1,6 @@
 {
   "name": "qiip",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "description": "cli tool to post entry for qiita.",
   "author": "aliyome <aliyome@gmail.com> (https://aliyo.me)",
@@ -9,7 +9,7 @@
     "post": "node src/post.js"
   },
   "bin": {
-    "post": "./bin/post.js"
+    "qiip": "./bin/qiip.js"
   },
   "repository": {
     "type": "git",
