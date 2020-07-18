@@ -1,0 +1,16 @@
+{
+  "name": "qiita",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "aliyome <aliyome@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node src/test.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "qiita-js": "^0.4.3"
+  }
+}
