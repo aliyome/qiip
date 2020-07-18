@@ -22,5 +22,3 @@ Qiita.setEndpoint('https://qiita.com');
 Qiita.Resources.User.get_user('aliyome').then((user) => {
   console.log(user);
 });
-
-Qiita.Resources.
